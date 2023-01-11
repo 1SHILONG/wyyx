@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "w-navigator": "/components/w-navigator/w-navigator",
+    "search-bar": "/pages/home/childCpns/search-bar/search-bar",
+    "van-search": "/miniprogram_npm/@vant/weapp/search/index",
+    "w-slide-bar": "/pages/home/childCpns/w-slide-bar/w-slide-bar",
+    "w-tab-control": "/pages/home/childCpns/w-tab-control/w-tab-control",
+    "w-goods": "/components/w-goods/w-goods",
+    "w-back-top": "/components/w-back-top/w-back-top"
+  },
+  "navigationStyle": "custom"
+
+}

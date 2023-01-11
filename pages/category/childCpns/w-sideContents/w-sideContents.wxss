@@ -1,0 +1,5 @@
+.sideContents-container {
+  width: 570rpx;
+  float: right;
+  margin-top: 130rpx;
+}

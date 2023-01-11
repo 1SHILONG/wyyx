@@ -1,0 +1,15 @@
+.slide-bar-container {
+  position: relative;
+  width: 750rpx;
+}
+.swiper-imgs {
+  width: 750rpx;
+}
+.slide-show-bar {
+  position: absolute;
+  width: 50rpx;
+  height: 40rpx;
+  bottom: 20rpx;
+  right: 20rpx;
+  background-color: #fff;
+}

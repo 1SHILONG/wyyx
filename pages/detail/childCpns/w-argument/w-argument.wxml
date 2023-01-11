@@ -1,0 +1,18 @@
+<view class="argument">
+  <view class="arg-title">
+    <text style="font-size:larger;margin-left: 20rpx;line-height: 80rpx;font-weight: 600;">{{argumentInfo.title}}</text>
+  </view>
+  <view class="arg-seaction">
+    <block wx:for="{{argumentInfo.content}}" wx:key="index">
+    <view class="arg-content">
+      <text style="color: gray;margin: 10rpx;width: 100rpx;">{{item.title}}</text>
+      <text style="margin: 10rpx 50rpx;">{{item.desc}}</text>
+    </view>
+    </block>
+  </view>
+  <view>
+    <block wx:for="{{argumentInfo.images}}" wx:key="index">
+      <image src="{{item}}" style="width: 750rpx;" mode="widthFix"/>
+    </block>
+  </view>
+</view>

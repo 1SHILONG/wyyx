@@ -1,0 +1,14 @@
+.side-bar {
+  top: 120rpx;
+  position: fixed;
+  width: 164rpx;
+}
+.side-item {
+  height: 110rpx;
+  line-height: 110rpx;
+}
+.active {
+  border: 8rpx #d13132;
+  border-left-style: solid ;
+  color: #d83c44;
+}

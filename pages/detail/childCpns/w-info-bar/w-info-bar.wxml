@@ -1,0 +1,15 @@
+<view class="postage-bar">
+<view class="content-section">
+  <text class="postage" style="color: gray;width: 140rpx;">{{actInfo.title}}</text>
+  <text class="postage-method">{{actInfo.desc}}</text>
+ <image style="margin-left: 500rpx;height: 40rpx;" src="/images/search-icons/right.png" mode="heightFix"/>  
+</view>
+<view class="mask {{showDialog? 'show' : ''}}" bind:tap="hideModals"></view>
+<view class="dialog {{showDialog? 'show': ''}}" >
+<view style="text-align: center;height: 60rpx;border-bottom: 2rpx solid gray;margin-top: 20rpx;">邮费</view>
+<text style="color: gray;">{{actInfo.popContent}}</text>
+
+
+</view>
+<view></view>
+</view>

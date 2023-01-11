@@ -1,0 +1,9 @@
+<scroll-view scroll-x="true" style="width: 100vw; height: 70rpx; margin-top: 20rpx;">
+<view class="tab-control-container" >
+  <block wx:for="{{titles}}" wx:key="index">
+  <view class="tab-control-section {{index === currentIndex? 'active' : ''}}" bind:tap="itemClick" data-index="{{index}}">
+    {{item}}
+  </view>
+</block> 
+</view>
+</scroll-view>

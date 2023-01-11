@@ -1,0 +1,7 @@
+<view class="side-bar">
+  <block wx:for="{{sideList}}" wx:key="index">
+    <view class="side-item {{index === currentIndex? 'active' : ''}}" bind:tap="itemClick" data-index="{{index}}">
+      <text style="margin-left: 20rpx;">{{item}}</text>
+    </view>
+  </block>
+</view>

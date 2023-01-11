@@ -1,0 +1,5 @@
+<view class="sideContents-container">
+  <block wx:for="{{sideContents}}" wx:key="index">
+    <w-side-content class="sideContents-item" contentsItem="{{item}}"></w-side-content>
+  </block>
+</view>

@@ -1,0 +1,10 @@
+<view class="slide-bar-container" >
+<swiper current="{{swiperIndex}}" bind:change="swiperMove">
+  <block wx:for="{{images}}" wx:key="index" >
+    <swiper-item>
+      <image class="swiper-imgs"   src="{{item}}" mode="widthFix"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="slide-show-bar">{{currentIndex}}/{{imagesLength}}</view>
+</view>

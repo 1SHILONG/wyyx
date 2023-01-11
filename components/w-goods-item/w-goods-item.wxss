@@ -1,0 +1,28 @@
+.goods-item-container {
+  /* border: 2rpx rgb(247, 241, 241, 0.6) solid; */
+  border-radius: 5%;
+  width: 310rpx;
+  /* height: 490rpx; */
+  padding: 10rpx;
+}
+.goods-item-image {
+  width: 300rpx;
+  height: 320rpx;
+  border-radius: 20rpx;
+}
+.rank {
+  font-size: small;
+  color: #d1d1d1;
+}
+.op {
+  color: red;
+}
+.np {
+  font-size: small;
+  color: #d1d1d1;
+  text-decoration: line-through;
+}
+.icon {
+  width: 30rpx;
+  height: 30rpx;
+}

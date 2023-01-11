@@ -1,0 +1,14 @@
+<view class='goods-item-container' bind:tap='itemClick'>
+  <image class='goods-item-image' src="{{goodsitem.image}}" />
+  <view class='desc-info'>
+    <view class="title">
+      <image class='icon' src="/images/icons/11.png"/>
+      <text>{{goodsitem.title}}</text>
+    </view>
+    <text class='rank'>{{goodsitem.rank}}</text>
+    <view class='info'>
+      <text class='op'>¥{{goodsitem.oldPrice}}</text>
+      <text class='np'>¥{{goodsitem.newPrice}}</text>
+    </view>
+  </view>
+</view>

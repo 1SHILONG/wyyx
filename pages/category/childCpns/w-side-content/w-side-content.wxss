@@ -1,0 +1,18 @@
+side-content {
+  width: 570rpx;
+}
+.side-content_hd {
+  width: 570rpx;
+  border: 2rpx #efefef;
+  border-bottom-style: solid;
+  padding: 20rpx 0rpx;
+}
+.side-content_bd {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20rpx;
+}
+.item.desc {
+  width: 190rpx;
+  text-align: center;
+}

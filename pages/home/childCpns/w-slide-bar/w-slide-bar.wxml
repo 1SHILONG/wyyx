@@ -1,0 +1,15 @@
+<scroll-view style="width: 706rpx; margin: 20rpx 23rpx; height: 160rpx; " bindscroll="getleft" scroll-x="true">
+  <view class="slide-section_container">
+    <view wx:for="{{slideList}}" wx:key="index">
+      <navigator url="{{item.link}}">
+        <image src="{{item.url}}" style="height: 80rpx;width: 100rpx;margin: 0 20rpx;"></image>
+        <text style="white-space: nowrap;font-size: small;margin: 0 22rpx;">{{item.title}}</text>
+      </navigator>
+    </view>
+  </view>
+</scroll-view>
+<view class="slide-bar-container">
+  <view class="slide-bar-section">
+    <view class="slide-show-section" style="width: {{slideWidth}}rpx; margin-left: {{slideLeft}}px;"></view>
+  </view>
+</view>

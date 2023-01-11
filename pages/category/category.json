@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "w-navigator": "/components/w-navigator/w-navigator",
+    "w-side-bar": "/pages/category/childCpns/w-side-bar/w-side-bar",
+    "w-sideContents": "/pages/category/childCpns/w-sideContents/w-sideContents"
+  },
+  "navigationStyle": "custom"
+
+}

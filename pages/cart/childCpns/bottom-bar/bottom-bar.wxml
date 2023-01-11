@@ -1,0 +1,14 @@
+<view class="bottom-bar">
+  <view class="check-box">
+  <view style="margin-top: 40rpx;">
+    <w-check-icon icon="icon" isChecked="{{selected}}" />
+  </view>
+    <text style="color: #8b8b8b;line-height: 120rpx;margin-left: 40rpx;">全选</text>
+  </view>
+  <view class="counter">
+    <text style="font-weight:600;color:#f9363a;line-height: 120rpx;">合计：￥{{price}}</text> 
+  </view>
+  <view class="checkout">
+    <text style="color: white;line-height: 70rpx;">结算</text>
+  </view>
+</view>

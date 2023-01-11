@@ -1,0 +1,45 @@
+<view class="price-bar-container_hd">
+  <view class="price-section_hd">
+    <text class="act-text">{{baseInfo.actText}}</text>
+    <view class="act-price">
+      <text class="newPrice">{{baseInfo.newPrice}}</text>
+      <text class="oldPrice">{{baseInfo.oldPrice}}</text>
+    </view>
+  </view>
+  <view class="price-section_bd">
+    <text class="act-special">{{baseInfo.actSpecial}}</text>
+  </view>
+</view>
+<view class="price-bar-container_bd">
+  <view class="desc-hd">
+    <view class="discount-section">
+      <view class="discount-hd">
+        <text>{{baseInfo.concessions}}</text>
+      </view>
+      <view class="discount-bd">
+        <text>{{baseInfo.method}}</text>
+      </view>
+    </view>
+    <view class="title-section">
+      <text style="font-weight: 600;margin-left: 20rpx;">{{baseInfo.title}}</text>
+      <view class="brand-seaction">
+        <view class="market">
+          <text style="color: white;font-size: 13px;">{{baseInfo.market}}</text>
+        </view>
+        <image src="/images/search-icons/xicon.png" style="width:40rpx;margin: 0 6rpx;" mode="widthFix" />
+        <text>{{baseInfo.brand}}</text>
+      </view>
+      <view class="reson-section">
+        <text style="margin-left: 20rpx;">{{baseInfo.reason}}</text>
+        <text style="margin-left: 480rpx;">{{baseInfo.sales}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="desc-bd">
+    <block wx:for="{{baseInfo.contents}}" wx:key="index">
+      <view class="content-section">
+        <text>{{item}}</text>
+      </view>
+    </block>
+  </view>
+</view>

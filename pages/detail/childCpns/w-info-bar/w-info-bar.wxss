@@ -1,0 +1,52 @@
+.postage-bar {
+  width: 750rpx;
+  height: 80rpx;
+  background-color: #fff;
+  display: flex;
+  border: 2rpx #fafafa;
+  border-style: solid none solid none;
+}
+.content-section {
+  display: flex;
+  padding: 20rpx 10rpx;
+  font-size: small;
+  white-space: nowrap;
+  height: 50rpx;
+}
+.mask {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.6);
+  /* 动画 */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s;
+}
+
+.mask.show {
+  opacity: 1;
+  visibility: visible;
+}
+.dialog {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 280px;
+  max-height: 75%;
+  z-index: 2000;
+  overflow: hidden;
+  padding: 0 24px;
+  background-color: #fff;
+  /*  */
+  transform: translateY(100%) ;
+  transition:  0.5s;
+}
+
+.dialog.show {
+  transform: translateY(0);
+}

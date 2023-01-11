@@ -1,0 +1,26 @@
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  width: 750rpx;
+  height: 120rpx;
+  display: flex;
+}
+.check-box {
+  display: flex;
+  width: 100px;
+  padding-left: 30rpx;
+}
+.counter{
+ width: 290rpx;
+ text-align: right;
+}
+.checkout {
+  width: 224rpx;
+  height: 70rpx;
+  margin: 20rpx;
+  border-radius: 40rpx;
+  text-align: center;
+  background-color: #f9363a;
+}

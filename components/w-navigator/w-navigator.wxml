@@ -1,0 +1,20 @@
+<view class="navigator-container" style="position: fixed; z-index: 9999;top: 0;height: {{navHeight}};width: 100vw;">
+<view  style="height: {{navHeight - navTop}}px; margin-top: {{navTop}}px; width: {{navWidth - 10}}px">
+<image class="{{isHome? 'nav-img' : 'hide-img'}}" src="/images/icons/nav-img.png" style="height: {{funcBarHeight}}px;" />
+  <navigator  class="{{isHome? 'hide-search' : 'search-container'}}" style="height: {{funcBarHeight}}px;" url="/pages/search/search" >
+    <view class="{{isHome? '' : 'navigator-search'}}" >
+      <image src="/images/icons/search-icon.png" style="height: 42rpx;width:42rpx;margin: 10rpx 20rpx"/>
+      <swiper class="search-title" vertical="true" autoplay="true" circular="true" interval="4000">
+        <block wx:for="{{msgList}}" wx:key="index">
+          <swiper-item catchtouchmove="stopTouchMove">
+            <text class="swiper_item"> {{isHome? '' : item.title}}</text>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="{{isHome_show? 'navigator-search-button':'clear-button'}}">
+      <text>搜索</text>
+    </view>
+  </navigator> 
+</view>
+</view>

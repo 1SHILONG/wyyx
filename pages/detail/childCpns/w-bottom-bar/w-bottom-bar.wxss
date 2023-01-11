@@ -1,0 +1,38 @@
+.bottom-bar-container {
+  border: 2rpx rgb(241, 241, 241);
+  border-top-style: solid;
+  bottom: 0rpx;
+  height: 100rpx;
+  width: 750rpx;
+  display: flex;
+  position: fixed;
+  background-color: #fff;
+}
+.img-section {
+  width: 70rpx;
+  height: 100rpx;
+  text-align: center;
+  font-size: 12px;
+  color: rgb(200, 200, 200);
+}
+.bottom-icons {
+  margin-top: 10rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.bottom-car {
+  width: 260rpx;
+  height: 70rpx;
+  text-align: center;
+  background-color: rgb(196, 150, 90) ;
+  margin: 20rpx 10rpx;
+  border-radius: 40rpx;
+}
+.bottom-buy {
+  width: 260rpx;
+  height: 70rpx;
+  text-align: center;
+  background-color: rgb(219, 45, 44);
+  margin: 20rpx 10rpx;
+  border-radius: 40rpx;
+}

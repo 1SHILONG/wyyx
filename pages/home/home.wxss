@@ -1,0 +1,18 @@
+
+.search-container view{
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.navigator-search {
+  border: 2rpx #d17583;
+  border-style: solid none solid solid;
+  border-radius: 40rpx 0 0 40rpx
+}
+.search-container view + view{
+  border: 2rpx #d17583;
+  border-style: solid solid solid none;
+}
+
+
+
+

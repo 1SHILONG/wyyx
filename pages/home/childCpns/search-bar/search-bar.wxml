@@ -1,0 +1,16 @@
+<view class="search-bar">
+  <navigator  class="search-bar-container" url="/pages/search/search" >
+  <view class="search-section">
+    <swiper class="search-section-title" vertical="true" autoplay="true" circular="true" interval="4000">
+      <block wx:for="{{msgList}}" wx:key="index">
+        <swiper-item catchtouchmove="stopTouchMove">
+          <view class="swiper_item">{{item.title}}</view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="search-bar-button" style="color: white;">
+    搜索
+  </view>
+  </navigator>  
+</view>

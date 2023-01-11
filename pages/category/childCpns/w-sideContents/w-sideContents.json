@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "w-side-content": "/pages/category/childCpns/w-side-content/w-side-content"
+  }
+}

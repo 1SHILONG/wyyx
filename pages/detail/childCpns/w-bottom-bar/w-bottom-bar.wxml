@@ -1,0 +1,21 @@
+<!--pages/detail/childCpns/w-bottom-bar/w-bottom-bar.wxml-->
+<view class="bottom-bar-container">
+  <view class="img-section">
+    <image class="bottom-icons" src="/images/icons/b-fz.png" />
+    首页
+  </view>
+  <view class="img-section">
+    <image class="bottom-icons" src="/images/icons/b-ej.png" />
+    客服
+  </view>
+  <view class="img-section">
+    <image class="bottom-icons" src="/images/icons/b-car.png" />
+    购物车
+  </view>
+  <view class="bottom-car" bind:tap='onAddCart'>
+    <text style="color: white; line-height: 70rpx;">加入购物车</text>
+  </view>
+  <view class="bottom-buy">
+    <text style="color: white; line-height: 70rpx;">立即购买</text>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+.tab-control-container {
+  display: flex;
+  white-space: nowrap;
+}
+.tab-control-section {
+ margin: 10rpx 20rpx;
+  width: 200rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx;
+}
+.active {
+  font-weight: 800;
+}

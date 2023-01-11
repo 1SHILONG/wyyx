@@ -1,0 +1,5 @@
+.divide {
+  width: 750rpx;
+  height: 20rpx;
+  background-color: #fafafa;
+}

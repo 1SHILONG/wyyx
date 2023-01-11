@@ -1,0 +1,17 @@
+<view class="lists-item-container">
+ <view class="icon">
+  <w-check-icon bind:tap="onCheckClick" data-index="{{index}}" isChecked="{{checked}}"></w-check-icon>
+  </view>
+  <view class="img">
+  <image src="{{goods.imageURL}}" style="width: 180rpx;height: 180rpx;margin-top: 60rpx;"/>
+  </view>
+  <view class="goodDesc">
+  <view class="title">
+    <text style="font-weight: 600;">{{goods.title}}</text>
+  </view>
+    <view class="priceInfo">
+      <text style="color: #f9363a;font-weight: 600;">￥{{goods.price}}</text>
+      <text style="margin-left: 300rpx;">x{{goods.count}}</text>
+    </view>
+  </view>
+</view>

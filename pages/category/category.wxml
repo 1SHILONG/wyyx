@@ -1,0 +1,10 @@
+<!-- 顶部导航栏 -->
+<w-navigator></w-navigator>
+<!-- 侧边导航栏 -->
+<w-side-bar sideList="{{sideList}}" bind:onclick="onClick"></w-side-bar>
+<!-- 侧边栏对应的内容区 -->
+<w-sideContents  class="w-sideContents" sideContents="{{goodsContents[currentIndex]}}"></w-sideContents>
+
+
+
+

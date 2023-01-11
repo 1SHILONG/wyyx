@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "w-navigator": "/components/w-navigator/w-navigator",
+    "w-goods": "/components/w-goods/w-goods"
+  },
+  "navigationStyle": "custom"
+
+}

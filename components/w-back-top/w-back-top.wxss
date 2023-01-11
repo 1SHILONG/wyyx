@@ -1,0 +1,12 @@
+.up_img {
+  position: fixed;
+  right: 40rpx;
+  bottom: 40rpx;
+  
+}
+.back-top-icon {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  background-color: rgba(98, 98, 98, 0.8) 
+}

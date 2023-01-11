@@ -1,0 +1,15 @@
+<scroll-view scroll-y="true" style="height: 100vh;">
+<w-slide-bar images="{{topImages}}" imagesLength="{{imagesLength}}"></w-slide-bar>
+<w-price-bar baseInfo="{{baseInfo}}"></w-price-bar>
+<w-dividing-line></w-dividing-line>
+<w-info-bar actInfo="{{actInfo}}" showDialog="{{showDialog}}" bind:tap="showModals"></w-info-bar>
+<w-dividing-line></w-dividing-line>
+<view>
+  <block wx:for="{{shopInfo}}" wx:key="index">
+    <w-info-bar actInfo="{{item}}" ></w-info-bar>
+  </block>
+</view>
+<w-dividing-line></w-dividing-line>
+<w-argument argumentInfo="{{argumentInfo}}"></w-argument>
+</scroll-view>
+<w-bottom-bar bind:addcart="onAddCart"></w-bottom-bar>

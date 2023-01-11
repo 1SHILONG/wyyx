@@ -1,0 +1,4 @@
+<w-navigator isHome="{{isHome}}"></w-navigator>
+<image src="/images/search-icons/Snipaste_2023-01-05_01-09-22.png" style="width: 750rpx;" mode="widthFix"/>
+<view style="text-align: center;width: 750rpx;">💖猜你喜欢💖</view> 
+<w-goods goodslist="{{goods}}"></w-goods>

@@ -1,0 +1,19 @@
+.arg-seaction {
+  width: 750rpx;
+  height: 80rp;
+
+}
+.arg-title {
+  height: 80rpx;
+}
+.arg-seaction {
+  width: 750rpx;
+  
+}
+.arg-content {
+  height: 60rpx;
+  border: 2rpx #fafafa;
+  border-style: solid none solid none;
+  display: flex;
+  font-size: small;
+}

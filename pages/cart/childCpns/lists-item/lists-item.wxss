@@ -1,0 +1,22 @@
+.lists-item-container {
+  height: 280rpx;
+  width: 710rpx;
+  margin: 20rpx;
+  display: flex;
+  border-radius: 20rpx;
+  background-color: #fff;
+}
+.icon {
+  margin-top: 140rpx;
+}
+.goodDesc {
+  margin-left: 40rpx;
+}
+.title {
+  height: 140rpx;
+  box-sizing: border-box;
+  padding-top: 40rpx;
+}
+.priceInfo {
+  height: 140rpx;
+}

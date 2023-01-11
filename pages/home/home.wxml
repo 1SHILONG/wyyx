@@ -1,0 +1,12 @@
+<!--pages/home/home.wxml-->
+<w-navigator id="w-navigator" isHome="{{isHome}}" isHome_show="{{isHome_show}}"></w-navigator>
+<scroll-view scroll-y style="margin-top:120rpx;height:100vh" bindscroll="scrolltoupper" scroll-with-animation="true" scroll-top="{{topNum}}"
+bindscrolltolower="loadMore">
+<search-bar></search-bar>
+<w-slide-bar slideList="{{slideList}}"></w-slide-bar>
+<w-tab-control class="tab-control" titles="{{titles}}" bind:tapclick="tapClick"></w-tab-control>
+<w-goods goodslist="{{goods[currentType].list}}"></w-goods>
+<w-back-top bind:tap="goTop" wx:if="{{up_show}}">sss</w-back-top>
+</scroll-view>
+
+

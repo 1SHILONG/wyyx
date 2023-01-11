@@ -1,0 +1,15 @@
+<view class="side-content">
+  <view class="side-content_hd">
+    <text style="font-weight: 600;">{{contentsItem.title}}</text>
+  </view>
+  <view class="side-content_bd">
+    <block wx:for="{{contentsItem.lists}}" wx:key="index">
+      <view class="item-container">
+        <image src="{{item.image}}" style="height: 150rpx;width: 190rpx;" />
+        <view class="item.desc">
+          <text>{{item.desc}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

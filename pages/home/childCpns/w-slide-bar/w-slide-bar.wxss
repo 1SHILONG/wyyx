@@ -1,0 +1,16 @@
+.slide-section_container {
+  width: 706rpx;
+  height: 160rpx;
+  display: flex;
+ margin-top: 20rpx;
+}
+.slide-bar-container {
+  height: 8rpx;
+  width: 84rpx;
+  margin-left: 329rpx;
+  background-color: #ececec;
+}
+.slide-show-section {
+  height: 8rpx;
+  background-color: #f34c2a;
+}

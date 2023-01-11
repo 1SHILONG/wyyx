@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "w-bottom-bar": "/pages/detail/childCpns/w-bottom-bar/w-bottom-bar",
+    "w-slide-bar": "/pages/detail/childCpns/w-slide-bar/w-slide-bar",
+    "w-price-bar": "/pages/detail/childCpns/w-price-bar/w-price-bar",
+    "w-dividing-line": "/components/w-dividing-line/w-dividing-line",
+    "w-info-bar": "/pages/detail/childCpns/w-info-bar/w-info-bar",
+    "w-argument": "/pages/detail/childCpns/w-argument/w-argument"
+  }
+}

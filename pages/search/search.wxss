@@ -1,0 +1,7 @@
+/* pages/search/search.wxss */
+.van-row {
+  margin: 20rpx;
+}
+.van-col {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}

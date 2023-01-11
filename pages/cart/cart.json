@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "bottom-bar" : "/pages/cart/childCpns/bottom-bar/bottom-bar",
+    "lists-item" : "/pages/cart/childCpns/lists-item/lists-item",
+    "w-goods": "/components/w-goods/w-goods"
+  },
+  "navigationBarTitleText": "购物车"
+}
