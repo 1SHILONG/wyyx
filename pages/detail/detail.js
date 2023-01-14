@@ -29,6 +29,7 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
+  // 动画显示和隐藏
   showModals() {
     const _showDialog = !this.data.showDialog
     this.setData({
@@ -47,9 +48,9 @@ Page({
       .then(res => {
         // 手动添加一个逻辑来判断 goods-item的id匹配detail一次性请求的所有数据中相关的那部分数据  用该数据来驱动页面更新
         // 模拟通过传参来向后端取得想要得到的数据
-        const data1 = res.data;
-        const index =  data1.findIndex(item => item.id == this.data.id);
-        const data = res.data[index];
+        const data1 = res.data; // 拿到所有数据
+        const index =  data1.findIndex(item => item.id == this.data.id); // 找到对应id的那部分所需数据的下标
+        const data = res.data[index]; // 拿到id对应的数据
         const topImages = data.topImages;
         const imagesLength = topImages.length;
         const baseInfo = new GoodsBaseInfo(data.itemInfo, data.contents);

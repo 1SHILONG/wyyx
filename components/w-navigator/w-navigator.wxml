@@ -1,20 +1,27 @@
-<view class="navigator-container" style="position: fixed; z-index: 9999;top: 0;height: {{navHeight}};width: 100vw;">
-<view  style="height: {{navHeight - navTop}}px; margin-top: {{navTop}}px; width: {{navWidth - 10}}px">
-<image class="{{isHome? 'nav-img' : 'hide-img'}}" src="/images/icons/nav-img.png" style="height: {{funcBarHeight}}px;" />
-  <navigator  class="{{isHome? 'hide-search' : 'search-container'}}" style="height: {{funcBarHeight}}px;" url="/pages/search/search" >
-    <view class="{{isHome? '' : 'navigator-search'}}" >
-      <image src="/images/icons/search-icon.png" style="height: 42rpx;width:42rpx;margin: 10rpx 20rpx"/>
-      <swiper class="search-title" vertical="true" autoplay="true" circular="true" interval="4000">
-        <block wx:for="{{msgList}}" wx:key="index">
-          <swiper-item catchtouchmove="stopTouchMove">
-            <text class="swiper_item"> {{isHome? '' : item.title}}</text>
-          </swiper-item>
-        </block>
-      </swiper>
-    </view>
-    <view class="{{isHome_show? 'navigator-search-button':'clear-button'}}">
-      <text>搜索</text>
-    </view>
-  </navigator> 
-</view>
+<!-- 自定义导航栏 -->
+<view class="navigator-container" style="height: {{navHeight}};">
+  <!-- 功能栏 -->
+  <view class="func-container" style="height: {{navHeight - navTop}}px; margin-top: {{navTop}}px; width: {{navWidth - 10}}px">
+    <!-- 显示品牌图片 -->
+    <image class="{{isHome? 'func-img' : 'hide-func-img'}}" src="/images/icons/nav-img.png" style="height: {{funcBarHeight}}px;" />
+    <!-- 显示搜索栏 -->
+    <navigator class="{{isHome? 'hide-search' : 'search-container'}}" style="height: {{funcBarHeight}}px;" url="/pages/search/search">
+      <view class="{{isHome? '' : 'navigator-search'}}">
+        <!-- 图标 -->
+        <image src="/images/icons/search-icon.png" style="height: 42rpx;width:42rpx;margin: 10rpx 20rpx" />
+        <!-- 轮播功能 -->
+        <swiper class="search-title" vertical="true" autoplay="true" circular="true" interval="4000">
+          <block wx:for="{{msgList}}" wx:key="index">
+            <swiper-item catchtouchmove="stopTouchMove">
+              <text class="swiper_item"> {{isHome? '' : item.title}}</text>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+      <!-- 搜索按钮 -->
+      <view class="{{isHome_show? 'navigator-search-button':'clear-button'}}">
+        <text>搜索</text>
+      </view>
+    </navigator>
+  </view>
 </view>

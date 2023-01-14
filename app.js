@@ -34,7 +34,6 @@ App({
   addToCart(obj) {
     const oldInfo = this.globalData.cartList 
       .find(item => item.id === obj.id );
-      // console.log(oldInfo);
     if (oldInfo) {
       oldInfo.count++;
     } else {

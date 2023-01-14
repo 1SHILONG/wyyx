@@ -14,7 +14,6 @@ Page({
   },
   // 自定义父组件的绑定事件 接收子组件传递的数据
   onClick(e) {
-    // console.log(e,  "???");
     this.setData({
       currentIndex: e.detail.index
     })

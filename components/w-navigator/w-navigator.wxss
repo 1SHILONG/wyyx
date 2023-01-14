@@ -1,5 +1,9 @@
 .navigator-container {
+  width: 100vw;
   background-color: white;
+  position: fixed; 
+  z-index: 9999;
+  top: 0;
 }
 .search-container {
   display: flex;
@@ -9,11 +13,11 @@
 .hide-search {
   display: none;
 }
-.nav-img {
+.func-img {
   width: 100%;
   margin-left: 20rpx;
 }
-.hide-img {
+.hide-func-img {
   display: none;
 }
 .navigator-search {

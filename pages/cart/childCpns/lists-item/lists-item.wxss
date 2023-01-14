@@ -4,6 +4,7 @@
   margin: 20rpx;
   display: flex;
   border-radius: 20rpx;
+
   background-color: #fff;
 }
 .icon {

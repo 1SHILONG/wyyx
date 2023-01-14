@@ -1,15 +1,24 @@
 <scroll-view scroll-y="true" style="height: 100vh;">
+<!-- 图片滑动栏 -->
 <w-slide-bar images="{{topImages}}" imagesLength="{{imagesLength}}"></w-slide-bar>
+<!-- 价格区 -->
 <w-price-bar baseInfo="{{baseInfo}}"></w-price-bar>
+<!-- 分割线 -->
 <w-dividing-line></w-dividing-line>
+<!-- 邮费信息栏 -->
 <w-info-bar actInfo="{{actInfo}}" showDialog="{{showDialog}}" bind:tap="showModals"></w-info-bar>
+<!-- 分割线 -->
 <w-dividing-line></w-dividing-line>
+<!-- 其他信息栏 -->
 <view>
   <block wx:for="{{shopInfo}}" wx:key="index">
     <w-info-bar actInfo="{{item}}" ></w-info-bar>
   </block>
 </view>
+<!-- 分割线 -->
 <w-dividing-line></w-dividing-line>
+<!-- 底部商品参数区 -->
 <w-argument argumentInfo="{{argumentInfo}}"></w-argument>
 </scroll-view>
+<!-- 底部菜单栏 -->
 <w-bottom-bar bind:addcart="onAddCart"></w-bottom-bar>

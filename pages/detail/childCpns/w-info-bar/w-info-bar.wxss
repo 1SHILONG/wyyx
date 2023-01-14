@@ -24,7 +24,7 @@
   /* 动画 */
   opacity: 0;
   visibility: hidden;
-  transition: opacity .3s;
+  transition: opacity 0.5s;
 }
 
 .mask.show {
@@ -42,7 +42,6 @@
   overflow: hidden;
   padding: 0 24px;
   background-color: #fff;
-  /*  */
   transform: translateY(100%) ;
   transition:  0.5s;
 }

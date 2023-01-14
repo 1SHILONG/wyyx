@@ -1,11 +1,17 @@
-<!--pages/home/home.wxml-->
-<w-navigator id="w-navigator" isHome="{{isHome}}" isHome_show="{{isHome_show}}"></w-navigator>
+<!-- 顶部自定义导航 -->
+<w-navigator  isHome="{{isHome}}" isHome_show="{{isHome_show}}"></w-navigator>
+<!-- 页面主体 -->
 <scroll-view scroll-y style="margin-top:120rpx;height:100vh" bindscroll="scrolltoupper" scroll-with-animation="true" scroll-top="{{topNum}}"
 bindscrolltolower="loadMore">
+<!-- 页面主体搜索栏 -->
 <search-bar></search-bar>
+<!-- 滑动栏 -->
 <w-slide-bar slideList="{{slideList}}"></w-slide-bar>
+<!-- 标签栏 -->
 <w-tab-control class="tab-control" titles="{{titles}}" bind:tapclick="tapClick"></w-tab-control>
+<!-- 商品栏 -->
 <w-goods goodslist="{{goods[currentType].list}}"></w-goods>
+<!-- 回到顶部按钮 -->
 <w-back-top bind:tap="goTop" wx:if="{{up_show}}">sss</w-back-top>
 </scroll-view>
 

@@ -1,11 +1,14 @@
+<!-- 购物区 -->
 <view class="cart">
   <scroll-view class="cart-list" scroll-y style="background-color: #f4f4f4;">
     <block wx:for="{{cartList}}" wx:key="index">
       <lists-item goods="{{item}}" index="{{index}}" checked="{{isSelectAll}}" />
     </block>
   </scroll-view>
-  <bottom-bar selected="{{isSelectAll}}" price="{{totalPrice}}" counter="{{totalCounter}}" bind:tap="onSelectAll"></bottom-bar>
 </view>
-<view style="text-align: center;width: 750rpx;">猜你喜欢</view> 
+<!-- 推荐区 -->
+<view style="text-align: center;width: 750rpx;">猜你喜欢</view>
+<!-- 推荐商品列表 -->
 <w-goods goodslist="{{cartGoods}}"></w-goods>
-
+<!-- 底部功能栏 -->
+<bottom-bar selected="{{isSelectAll}}" price="{{totalPrice}}" counter="{{totalCounter}}" bind:tap="onSelectAll"></bottom-bar>

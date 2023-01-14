@@ -1,3 +1,4 @@
+// 数据很庞杂的时候 可以建模来筛选出我们需要的信息
 export class GoodsBaseInfo {
   constructor(itemInfo,  contents) {
     this.method = itemInfo.method

@@ -19,6 +19,7 @@ Component({
    */
   methods: {
     onAddCart() {
+      // 触发父组件的addcart事件的 wx.showToast()  反馈成功加入购物车
       this.triggerEvent('addcart')
     }
   }

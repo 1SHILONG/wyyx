@@ -81,6 +81,7 @@ Page({
       currentType: typeDic[index] //根据子组件传递的index数据改变父组件的currentType
     })
   },
+  // 尽量在onLoad中少放东西  做的事情很多
   onLoad(options) {
     this._getData();
   },
@@ -93,7 +94,6 @@ Page({
     getSlideData() // promise 拿到接口返回的数据
       .then(res => {
         const slideList = res.slideList;
-        // console.log(slideList,  '----------') 
         this.setData({
           slideList
         });

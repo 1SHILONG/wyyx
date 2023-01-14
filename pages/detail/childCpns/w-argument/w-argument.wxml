@@ -10,9 +10,9 @@
     </view>
     </block>
   </view>
-  <view>
+  <view style="font-size: 0;">
     <block wx:for="{{argumentInfo.images}}" wx:key="index">
-      <image src="{{item}}" style="width: 750rpx;" mode="widthFix"/>
+      <image src="{{item}}" style="width: 750rpx;"  mode="widthFix"/>
     </block>
   </view>
 </view>

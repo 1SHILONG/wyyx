@@ -13,10 +13,6 @@ Component({
     isHome_show: {
       type: Boolean,
       value: false
-    },
-    navHeight: {
-      type: Number,
-      value: app.globalData.navHeight
     }
   },
 

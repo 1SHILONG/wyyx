@@ -2,14 +2,15 @@
   border: 2rpx rgb(241, 241, 241);
   border-top-style: solid;
   bottom: 0rpx;
-  height: 100rpx;
+  height: 120rpx;
   width: 750rpx;
   display: flex;
   position: fixed;
+  padding-left: 10rpx;
   background-color: #fff;
 }
 .img-section {
-  width: 70rpx;
+  width: 80rpx;
   height: 100rpx;
   text-align: center;
   font-size: 12px;
@@ -21,7 +22,7 @@
   height: 50rpx;
 }
 .bottom-car {
-  width: 260rpx;
+  width: 220rpx;
   height: 70rpx;
   text-align: center;
   background-color: rgb(196, 150, 90) ;
@@ -29,7 +30,7 @@
   border-radius: 40rpx;
 }
 .bottom-buy {
-  width: 260rpx;
+  width: 220rpx;
   height: 70rpx;
   text-align: center;
   background-color: rgb(219, 45, 44);

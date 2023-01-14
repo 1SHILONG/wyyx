@@ -7,7 +7,7 @@
 }
 .slide-show-bar {
   position: absolute;
-  width: 50rpx;
+  width: 60rpx;
   height: 40rpx;
   bottom: 20rpx;
   right: 20rpx;
